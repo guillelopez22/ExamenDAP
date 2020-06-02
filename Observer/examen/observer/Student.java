@@ -11,13 +11,13 @@ package examen.observer;
  */
 public class Student implements Observer {
  
-	private String teacher;
+	private String student;
  
 	public Student(String teacher){
-		this.teacher = teacher;
+		this.student = student;
 	}
 	@Override
 	public void update(Subject assignment) {
-		System.out.println("Student " + this.teacher + " has received the assignment..." + assignment);
+		System.out.println("Student " + this.student + " has received the assignment..." + assignment);
 	}
 }
